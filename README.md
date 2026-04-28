@@ -1,6 +1,6 @@
 # love2d-native-sr-example
 
-This Project is an example that shows a love2d project that uses [SRAL](https://github.com/m1maker/SRAL) to add screen reader and text to speech support. It was originally built to validate and text SRAL's ability to work with Love2d on iOS and Android.
+This Project is an example that shows a love2d project that uses [SRAL](https://github.com/m1maker/SRAL) to add screen reader and text to speech support. It was originally built to validate and test SRAL's ability to work with Love2d on iOS and Android.
 
 This project has two files:
 * `sral.lua` - uses `ffi` to load SRAL, and creates the `speak(text)` function
@@ -13,4 +13,4 @@ Below is a video showing a cursor moving around several boxes. As they move and 
 https://github.com/user-attachments/assets/4edc3c8d-f6c1-4f29-a2d2-f61140470cb6
 
 > [!important]
-> The project shows simple hover and click affordances that are optimized for mobile. A true blind friendly experience should have keyboard support as well, but for the purposes of this demo, may be missing.
+> The project shows simple hover and click affordances that are optimized for mobile. A true blind friendly experience should have keyboard support as well, but for the purposes of this demo is not included (yet).
