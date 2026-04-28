@@ -8,5 +8,9 @@ This project has two files:
 
 The `speak(text)` function will determine and use the device's Screen Reader or TTS (text-to-speech) system to read aloud the text passed in. These are often already pre-configured by the user for a rate, accent, and pitch that the user is already comfortable with.
 
+Below is a video showing a cursor moving around several boxes. As they move and click on the boxes, the TTS system announces the state changes and updates.
+
+https://github.com/user-attachments/assets/4edc3c8d-f6c1-4f29-a2d2-f61140470cb6
+
 > [!important]
 > The project shows simple hover and click affordances that are optimized for mobile. A true blind friendly experience should have keyboard support as well, but for the purposes of this demo, may be missing.
